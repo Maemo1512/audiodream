@@ -1,0 +1,39 @@
+body{
+    background: #6ce6ec;
+}
+form{
+    top: 50%;   
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: hidden;
+    font-weight: bold; 
+    font-size: 22px;
+}
+form input{
+    margin: 0;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    outline: none;    
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    font-size: 22px;
+}
+form input[type="submit"]{
+    outline: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background: #fb2525;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.back-website img{
+    height: 50px;
+    width: 50px;
+}
+p{
+    text-align: center;
+}
