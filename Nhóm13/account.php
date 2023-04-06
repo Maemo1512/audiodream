@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vivek Music Player</title>
+        <title>Nhóm 13</title>
         <link href="css/display.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="primary page responsive.css">
+        <link href="css/info3.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
@@ -26,514 +27,285 @@
                 </div>
                 <input type="text" name="search" placeholder="Search">
             </div>
-            <div class="profile-picture">
-                <img src="image/website_logo.png" alt="">
-            </div>
+            <div class="title-combo">
+                <div class="profile-picture">
+                    <img src="image/website_logo.png" alt="">
+                </div>
+                <div class="title-combo">
+                    <div class="profile">
+                        <h4>
+                             <a href="#queue-option-box">Queue</a>
+                             <a href="#">
+                                 <i class="fas fa-chevron-circle-down"></i>
+                             </a>
+                        </h4>
+                        <div class="queue-options" id="queue-option-box">
+                            <p><a href="" style="color:#007bff; font-weight:bolder;">Tài Khoản</a></p>
+                            <hr>
+                            <p><a href="" style="color:#007bff; font-weight:bolder;">Giỏ Hàng</a></p>
+                            <hr>
+                            <p><a href="index.php" style="color:red; font-weight:bolder;">Đăng Xuất</a></p>
+                        </div>
+                    </div>
+                </div>    
+            </div>   
         </nav>
         <main>
-            <aside class="aside section-1">
-                <div class="latest-release">
-                    <h1 style="margin-bottom: 12px;">Latest Release</h1>
-                    <div class="latest-release-content">
-                        <div class="card">
+            <aside class="aside section">
+                <div class="top">
+                    <h1 style="margin-bottom: 12px;">Top Nghe Nhiều Nhất</h1>
+                    <div class="top-content">
+                        <div class="card" style="cursor: pointer">
                             <div>
-                                <img src="image/songs/willow.jpeg" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/eminem.jpg" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>Willow</h3>
-                                <p>Dec , 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>The Real Slim Shady</h3>
+                                <p>4:45</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i>Add to Queue</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i>Get Info</p>
-                                    </div>
-                                </div>
-                                <p>3:35</p>
+                                <h1>#1</h1>
+                                <p>227k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/Weeknd.jpg" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/bruno mars.jpg" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>Blinding Lights</h3>
-                                <p>Dec, 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>That Whats I Like</h3>
+                                <p>3:31</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox2"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox2">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i> Add to Queue</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i> Get Info</p>
-                                    </div>
-                                </div>
-                                <p>3:20</p>
+                                <h1>#2</h1>
+                                <p>213k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/DaBaby.jpg" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/billie eilish.jpg" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>ROCKSTAR</h3>
-                                <p>Dec, 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>Happier Than Ever</h3>
+                                <p>5:15</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox3"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox3">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i>Add to Queue</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i>Get Info</p>
-                                    </div>
-                                </div>
-                                <p>3:02</p>
+                                <h1>#3</h1>
+                                <p>209k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/dynamite.jpg" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/adele.jpg" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>Dynamite</h3>
-                                <p>Dec, 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>Hello</h3>
+                                <p>6:06</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox4"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox4">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i>Add to Queue</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i>Get Info</p>
-                                    </div>
-                                </div>
-                                <p>3:19</p>
+                                <h1>#4</h1>
+                                <p>195k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/shit.png" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/ed sheeran.jpg" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>WAP</h3>
-                                <p>Dec, 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>Shape Of You</h3>
+                                <p>4:23</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox5"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox5">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i>Add to Queue</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i>Get Info</p>
-                                    </div>
-                                </div>
-                                <p>4:44</p>
+                                <h1>#5</h1>
+                                <p>187k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/falling.jpg" alt="">
+                                <a href="Nhac.php"><img src="image/popular artists/posty.png" alt=""/></a>
                             </div>
-                            <div class="song-description">
-                                <h3>Falling </h3>
-                                <p>Dec, 2020</p>
+                            <div class="song" style="margin: auto 10%;">
+                                <h3>Sun Flower </h3>
+                                <p>2:41</p>
                             </div>
                             <div class="options">
-                                <label for="latest-release-checkbox6"><i class="fas fa-ellipsis-h"></i></label>
-                                <input type="checkbox" id="latest-release-checkbox6">
-                                <div class="latest-release-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Single Playlist Screen.html">Play Now</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i>Add to Queue</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i>Add to playlist</p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i>Get Info</p>
-                                    </div>
-                                </div>
-                                <p>2:39</p>
+                                <h1>#6</h1>
+                                <p>156k</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="popular-artists">
-                    <h1 style="margin-bottom: 12px;">Popular Artists</h1>
-                    <div class="popular-artist-content">
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/adele.jpg" alt="">
-                                <p>Adele</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/billie eilish.jpg" alt="">
-                                <p>Billie Eilish</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/bruno mars.jpg"  alt="">
-                                <p>Bruno Mars</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/Camila Cabello.jpg" alt="">
-                                <p>Camila Cabello</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/drake.jpg" alt="">
-                                <p>Drake</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/ed sheeran.jpg" alt="">
-                                <p>Ed Sheeran</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/eminem.jpg" alt=""> 
-                                <div><i class="fas fa-play"></i></div>
-                                <p>Eminem</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/Katy perry.jpg" alt="">
-                                <p>Katy Perry</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/sixnine.jpg" alt="">
-                                <p>6ix9ine</p>
-                            </div>
-                        </a>
-                        <a href="Single Playlist Screen.html">
-                            <div>
-                                <img src="image/popular artists/posty.png" alt="">
-                                <p>Post Malone</p>
-                            </div>
-                        </a>
+                <div class="noibat">
+                    <h1 style="margin-bottom: 12px;">Nghệ Sĩ Nổi Bật</h1>
+                    <div class="noibat-noidung">
+                        <div>
+                            <a href="NgheSi/Adele.php"><img src="image/popular artists/adele.jpg" alt=""></a>
+                            <p>Adele</p>
+                        </div>
+                        <div>
+                            <a href="NgheSi/BillieEilish.php"><img src="image/popular artists/billie eilish.jpg" alt=""></a>
+                            <p>Billie Eilish</p>
+                        </div>
+                        <div>
+                            <a href="NgheSi/BrunoMars.php"><img src="image/popular artists/bruno mars.jpg"  alt=""></a>
+                            <p>Bruno Mars</p>
+                        </div>
+                        <div>
+                            <a href="NgheSi/EdSheeran.php"><img src="image/popular artists/ed sheeran.jpg" alt=""></a>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div>
+                            <a href="NgheSi/Eminem.php"><img src="image/popular artists/eminem.jpg" alt=""></a>
+                            <p>Eminem</p>
+                        </div>
+                        <div>
+                            <a href="NgheSi/PostMalone.php"><img src="image/popular artists/posty.png" alt=""></a>
+                            <p>Post Malone</p>
+                        </div>
                     </div>
                 </div>
-                <h1 style="margin-bottom: 12px;">Popular Video</h1>
-                <div class="music-themes-2">
+                <h1 style="margin-bottom: 12px;">Video Nổi Bật</h1>
+                <div class="anhnhac">
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
+                            <video width="320" height="240" playsinline autoplay muted>
+                                <source src="video/adele.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
+                            <video width="320" height="240" playsinline autoplay muted>
+                                <source src="video/billieeilish.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
+                            <video width="320" height="240" playsinline autoplay muted>
+                                <source src="video/brunomars.mp4" type="video/mp4">
                             </video>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <video width="320" height="240" playsinline autoplay muted>
+                                <source src="video/edsheeran.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <video width="320" height="240" playsinline autoplay muted loop>
+                                <source src="video/eminem.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <a href="Nhac.php">
+                                <video width="320" height="240" playsinline autoplay muted loop>
+                                    <source src="video/postmalone.mp4#t=30,45" type="video/mp4">
+                                </video>
+                            </a>
                         </div>
                     </div>
                 </div>
             </aside>
             <aside class="aside section-2">
                 <div class="heading">
-                    <h1>Playlist</h1>
+                    <h1>Albums Nổi Bật</h1>
                 </div>
-                <div class="playlist-content">
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">01</div>
-                            <div class="coverer">
-                                <img src="image/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Alone</div>
-                                <p>Alan Walker</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">02</div>
-                            <div class="coverer">
-                                <img src="image/playlist/after.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Alone Again</div>
-                                <p>Weeknd</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">03</div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>White Iverson</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">04
-                            </div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Go Flex</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">05
-                            </div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Better Now</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">06</div>
-                            <div class="coverer">
-                                <img src="image/playlist/after.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Hardest To Love</div>
-                                <p>Weeknd</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">07
-                            </div>
-                            <div class="coverer">
-                                <img src="image/playlist/beer.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Pysco
+                <div class="thuvien-noidung">
+                    <div class="thuvien-muc">
+                        <a href="Albums/eminem.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">01</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/eminem.jpg" alt=""/>
                                 </div>
-                                <p>Post Malone</p>
+                                <div>
+                                    <div>The Eminem Show</div>
+                                    <p>Eminem</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
+                        </a>
                     </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">08
+                    <div class="thuvien-muc">
+                        <a href="Albums/brunomars.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">02</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/bruno mars.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>24K Magic</div>
+                                    <p>Bruno Mars</p>
+                                </div>
                             </div>
-                            <div class="coverer">
-                                <img src="image/playlist/beer.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Rockstar</div>
-                                <p>Post Malone & 21 Savage</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
+                        </a>
                     </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">09
+                    <div class="thuvien-muc">
+                        <a href="Albums/adele.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">03</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/adele.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>25</div>
+                                    <p>Adele</p>
+                                </div>
                             </div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Deja Vu</div>
-                                <p>Post Malone & Justin Beiber</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
+                        </a>
                     </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">10</div>
-                            <div class="coverer">
-                                <img src="image/popular artists/billie eilish.jpg" alt="">
+                    <div class="thuvien-muc">
+                        <a href="Albums/edsheeran.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">04</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/ed sheeran.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>You Need Me</div>
+                                    <p>Ed Sheeran</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Bad Guy</div>
-                                <p>Billie Eilish</p>
-                            </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
+                        </a>
                     </div>
-                    <div class=playlist-item>
-                        <div class="left-content">
-                            <div style="margin-right:4px;">11</div>
-                            <div class="coverer">
-                                <img src="image/songs/sorry.jpg" alt="">
+                    <div class="thuvien-muc">
+                        <a href="Albums/postmalone.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">05</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/posty.png" alt=""/>
+                                </div>
+                                <div>
+                                    <div>Stoney</div>
+                                    <p>Post Malone</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Sorry</div>
-                                <p>Justin Bieber</p>
+                        </a>
+                    </div>
+                    <div class="thuvien-muc">
+                        <a href="Albums/billieeilish.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">06</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/billie eilish.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>Happier Than Ever</div>
+                                    <p>Billie Eilish</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="right-content">
-                            <i class="far fa-heart"></i>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </aside>
         </main>
-        <footer>
-            <div class="active-song-description">
-                <div id="song-image">
-                    <img src="image/latest english/roar.jpg" alt="">
-                </div>
-                <div class="song-desc">
-                    <div>Imagine by John</div>
-                    <div>John Lenon</div>
-                </div>
-                <div class="heart-and-ban-icon">
-                    <span>
-                        <i class="far fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fas fa-ban"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="player">
-                <div class="controls">
-                    <div><i class="fas fa-random"></i></div>
-                    <div><i class="fas fa-step-backward"></i></div>
-                    <div><i class="fas fa-pause-circle"></i></div>
-                    <div><i class="fas fa-step-forward"></i></div>
-                    <div><i class="fas fa-redo"></i></div>
-                </div>
-                <div id="slider">
-                    <div class="time">1:39</div>
-                    <div class="slidecontainer">
-                        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
-                    </div>
-                    <div class="time">4:44</div>
-                </div>
-            </div>
-            <div class="extras">
-                <div>
-                    <i class="fas fa-list-ul"></i>
-                </div>
-                <div>
-                    <i class="fas fa-laptop"></i>
-                </div>
-                <div>
-                    <i class="fas fa-volume-up"></i>
-                </div>
-                <div class="slidecontainer" style="width:30%;">
-                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
-                </div>
-                <div>
-                    <i class="fas fa-expand-alt"></i>
-                </div>
-            </div>
-        </footer>
     </body>
 </html>
+<?php
+    include("auth_session.php");
+?>

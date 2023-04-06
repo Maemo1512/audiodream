@@ -1,55 +1,48 @@
-<?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname="musicaudio";
-            $conn = mysqli_connect ($servername, $username, $password, $dbname);
-            if (!$conn) {
-                die("Ket noi that bai: " . mysqli_connect_error());
-            }
-            
-            
-            if(isset($_POST['submit'])){
-                $username=$_POST['username'];
-                $password=$_POST['password'];
-                $sql="select * from login where username ='$username' and password='$password'";
-                $result=mysqli_query($conn,$sql);
-                $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
-                $count=mysqli_num_rows($result);
-                if($count==1){
-                    header("Location:account.php");
-                }else{
-                    echo '<script>'
-                    . 'window.location.href="index.php";'
-                            . 'alert()"login failed."'
-                            . '</script>';
-                }
-            }    
-            $conn->close();
-        ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
-        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login-signup.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>  
         <div class="back-website">
             <a href="index.php"><img src="image/back_logo.png" alt=""/></a>
         </div>
-        <form id="form" action="login.php" method="POST">
-            <p>Đăng nhập</p>
-            <div class="user">
-                <label for="name">Tên người dùng:</label>
-                <input type="text" id="name" name="username" size="20" maxlength="50" placeholder="Nhập tên của bạn" required>
-            </div>
-            <div class="pass">
-                <label for="pass">Mật khẩu:</label>
-                <input type="password" id="pass" name="password" size="20" maxlength="20" placeholder="Nhập mật khẩu" required>
-            </div>
-            <a href="account.php" target="target"><input type="submit" value="Đăng nhập" name="submit"></a>
-        </form>
+        <?php
+            $con = mysqli_connect("localhost","root","","LoginSystem");
+            if (mysqli_connect_errno()){
+                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+            }
+            if (isset($_POST['username'])) {
+                $username = stripslashes($_REQUEST['username']);    
+                $username = mysqli_real_escape_string($con, $username);
+                $password = stripslashes($_REQUEST['password']);
+                $password = mysqli_real_escape_string($con, $password);
+                $query    = "SELECT * FROM `users` WHERE username='$username'
+                             AND password='" . md5($password) . "'";
+                $result = mysqli_query($con, $query) or die(mysql_error());
+                $rows = mysqli_num_rows($result);
+                if ($rows == 1) {
+                    $_SESSION['username'] = $username;
+                    header("Location: account.php");
+                } else {
+                    echo "<script>\n alert('Sai Tên Đăng Nhập Hoặc Mật Khẩu');\n";
+                    echo "window.location='login.php'";
+                    echo "</script>";
+                }
+            } else {
+        ?>
+            <form class="form" method="post" name="login">
+                <h1 class="login-title">Đăng Nhập</h1>
+                <input type="text" class="login-input" name="username" placeholder="Nhập Tên Đăng Nhập" autofocus="true"/>
+                <input type="password" class="login-input" name="password" placeholder="Nhập Mật Khẩu"/>
+                <input type="submit" value="Đăng Nhập" name="submit" class="login-button"/>
+                Chưa Có Tài Khoản?<p class="link"><a href="signup.php">Đăng Ký Ngay</a></p>
+            </form>
+        <?php
+            }
+        ?>
     </body>
 </html>

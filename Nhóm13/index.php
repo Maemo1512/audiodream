@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vivek Music Player</title>
+        <title>Nhóm 13</title>
         <link href="css/display.css" rel="stylesheet" type="text/css"/>
         <link href="css/info3.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
@@ -27,8 +27,8 @@
                 <input type="text" name="search" placeholder="Search">
             </div>
             <div class="access">
-                    <a href="login.php"><input type="submit" value="Đăng Nhập" name="submit"></a>                    
-                    <a href="signup.php"><input type="submit" value="Đăng Ký" name="submit"></a>
+                <a href="login.php"><input type="submit" value="Đăng Nhập" name="submit"></a>                    
+                <a href="signup.php"><input type="submit" value="Đăng Ký" name="submit"></a>
             </div>
         </nav>
         <main>
@@ -36,190 +36,92 @@
                 <div class="top">
                     <h1 style="margin-bottom: 12px;">Top Nghe Nhiều Nhất</h1>
                     <div class="top-content">
-                        <div class="card">
+                        <div class="card" style="cursor: pointer">
                             <div>
-                                <img src="image/songs/willow.jpeg" alt="">
+                                <a href="Nhac/eminem.php"><img src="image/popular artists/eminem.jpg" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>Willow</h3>
-                                <p>Dec , 2020</p>
+                                <h3>The Real Slim Shady</h3>
+                                <p>4:45</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Info.php">Nghe</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>3:35</p>
+                                <h1>#1</h1>
+                                <p>227k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/Weeknd.jpg" alt="">
+                                <a href="Nhac/brunomars.php"><img src="image/popular artists/bruno mars.jpg" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>Blinding Lights</h3>
-                                <p>Dec, 2020</p>
+                                <h3>That Whats I Like</h3>
+                                <p>3:31</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox2"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox2">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Info.php">Nghe</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>3:20</p>
+                                <h1>#2</h1>
+                                <p>213k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/DaBaby.jpg" alt="">
+                                <a href="Nhac/billieeilish.php"><img src="image/popular artists/billie eilish.jpg" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>ROCKSTAR</h3>
-                                <p>Dec, 2020</p>
+                                <h3>Happier Than Ever</h3>
+                                <p>5:15</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox3"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox3">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Info.php">Nghe</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div>
-                                    <hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>3:02</p>
+                                <h1>#3</h1>
+                                <p>209k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/dynamite.jpg" alt="">
+                                <a href="Nhac/adele.php"><img src="image/popular artists/adele.jpg" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>Dynamite</h3>
-                                <p>Dec, 2020</p>
+                                <h3>Hello</h3>
+                                <p>6:06</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox4"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox4">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i><a href="Info.php">Nghe</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>3:19</p>
+                                <h1>#4</h1>
+                                <p>195k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/shit.png" alt="">
+                                <a href="Nhac/edsheeran.php"><img src="image/popular artists/ed sheeran.jpg" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>WAP</h3>
-                                <p>Dec, 2020</p>
+                                <h3>Shape Of You</h3>
+                                <p>4:23</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox5"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox5">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Info.php">Nghe</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>4:44</p>
+                                <h1>#5</h1>
+                                <p>187k</p>
                             </div>
                         </div>
                         <div class="card">
                             <div>
-                                <img src="image/songs/falling.jpg" alt="">
+                                <a href="Nhac/postmalone.php"><img src="image/popular artists/posty.png" alt=""/></a>
                             </div>
                             <div class="song" style="margin: auto 10%;">
-                                <h3>Falling </h3>
-                                <p>Dec, 2020</p>
+                                <h3>Sun Flower </h3>
+                                <p>2:41</p>
                             </div>
                             <div class="options">
-                                <label for="top-checkbox6"><i class="fas fa-ellipsis-h" style="cursor: pointer;"></i></label>
-                                <input type="checkbox" id="top-checkbox6">
-                                <div class="top-dropdown">
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-play-circle"></i> <a href="Info.php">Play Now</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-list-ul"></i><a href="#">Mua</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-music"></i><a href="#">Thêm vào giỏ hàng</a></p>
-                                    </div><hr>
-                                    <div class="drop-item">
-                                        <p><i class="fas fa-info-circle"></i><a href="#">Thông tin</a></p>
-                                    </div>
-                                </div>
-                                <p>2:39</p>
+                                <h1>#6</h1>
+                                <p>156k</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="noibat">
-                    <h1 style="margin-bottom: 12px;">Popular Artists</h1>
+                    <h1 style="margin-bottom: 12px;">Nghệ Sĩ Nổi Bật</h1>
                     <div class="noibat-noidung">
                         <div>
                             <a href="NgheSi/Adele.php"><img src="image/popular artists/adele.jpg" alt=""></a>
-                            <p> Adele</p>
+                            <p>Adele</p>
                         </div>
                         <div>
                             <a href="NgheSi/BillieEilish.php"><img src="image/popular artists/billie eilish.jpg" alt=""></a>
@@ -247,163 +149,148 @@
                 <div class="anhnhac">
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
-                            </video>
+                            <a href="video/playvideo/adelevideo.php">
+                                <video width="320" height="240" playsinline autoplay muted>
+                                    <source src="video/adele.mp4#t=90,95" type="video/mp4">
+                                </video>
+                            </a>    
                         </div>
                     </div>
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
-                            </video>
+                            <a href="video/playvideo/billievideo.php">
+                                <video width="320" height="240" playsinline autoplay muted>
+                                    <source src="video/billieeilish.mp4#t=60,75" type="video/mp4">
+                                </video>
+                            </a>    
                         </div>
                     </div>
                     <div class="outer-div">
                         <div class="inner-div">
-                            <video width="320" height="240" controls autoplay muted>
-                                <source src="video/video2.mp4" type="video/mp4">
-                            </video>
+                            <a href="video/playvideo/brunomarsvideo.php">
+                                <video width="320" height="240" playsinline autoplay muted>
+                                    <source src="video/brunomars.mp4" type="video/mp4">
+                                </video>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <a href="video/playvideo/edsheeranvideo.php">
+                                <video width="320" height="240" playsinline autoplay muted>
+                                    <source src="video/edsheeran.mp4#t=30,45" type="video/mp4">
+                                </video>
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <a href="video/playvideo/eminemvideo.php">
+                                <video width="320" height="240" playsinline autoplay muted loop>
+                                    <source src="video/eminem.mp4#t=60,75" type="video/mp4">
+                                </video>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="outer-div">
+                        <div class="inner-div">
+                            <a href="video/playvideo/postmalonevideo.php">
+                                <video width="320" height="240" playsinline autoplay muted loop>
+                                    <source src="video/postmalone.mp4#t=30,45" type="video/mp4">
+                                </video>
+                            </a>
                         </div>
                     </div>
                 </div>
             </aside>
             <aside class="aside section-2">
                 <div class="heading">
-                    <h1>Thư Viện</h1>
+                    <h1>Albums Nổi Bật</h1>
                 </div>
                 <div class="thuvien-noidung">
                     <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">01</div>
-                            <div class="coverer">
-                                <img src="image/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Alone</div>
-                                <p>Alan Walker</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">02</div>
-                            <div class="coverer">
-                                <img src="image/playlist/after.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Alone Again</div>
-                                <p>Weeknd</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">03</div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>White Iverson</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">04</div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Go Flex</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">05</div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Better Now</div>
-                                <p>Post Malone</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">06</div>
-                            <div class="coverer">
-                                <img src="image/playlist/after.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Hardest To Love</div>
-                                <p>Weeknd</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">07</div>
-                            <div class="coverer">
-                                <img src="image/playlist/beer.jpg" alt="">
-                            </div>
-                            <div>
-                                <div>Pysco
+                        <a href="Albums/eminem.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">01</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/eminem.jpg" alt=""/>
                                 </div>
-                                <p>Post Malone</p>
+                                <div>
+                                    <div>The Eminem Show</div>
+                                    <p>Eminem</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">08</div>
-                            <div class="coverer">
-                                <img src="image/playlist/beer.jpg" alt="">
+                        <a href="Albums/brunomars.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">02</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/bruno mars.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>24K Magic</div>
+                                    <p>Bruno Mars</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Rockstar</div>
-                                <p>Post Malone & 21 Savage</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">09</div>
-                            <div class="coverer">
-                                <img src="image/playlist/stoney.jpg" alt="">
+                        <a href="Albums/adele.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">03</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/adele.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>25</div>
+                                    <p>Adele</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Deja Vu</div>
-                                <p>Post Malone & Justin Beiber</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">10</div><div class="coverer">
-                                <img src="image/popular artists/billie eilish.jpg" alt="">
+                        <a href="Albums/edsheeran.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">04</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/ed sheeran.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>You Need Me</div>
+                                    <p>Ed Sheeran</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Bad Guy</div>
-                                <p>Billie Eilish</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="thuvien-muc">
-                        <div class="trai-noidung">
-                            <div style="margin-right:4px;">11</div>
-                            <div class="coverer">
-                                <img src="image/songs/sorry.jpg" alt="">
+                        <a href="Albums/postmalone.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">05</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/posty.png" alt=""/>
+                                </div>
+                                <div>
+                                    <div>Stoney</div>
+                                    <p>Post Malone</p>
+                                </div>
                             </div>
-                            <div>
-                                <div>Sorry</div>
-                                <p>Justin Bieber</p>
+                        </a>
+                    </div>
+                    <div class="thuvien-muc">
+                        <a href="Albums/billieeilish.php">
+                            <div class="trai-noidung">
+                                <div style="margin-right:4px;">06</div>
+                                <div class="coverer">
+                                    <img src="image/popular artists/billie eilish.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <div>Happier Than Ever</div>
+                                    <p>Billie Eilish</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </aside>
